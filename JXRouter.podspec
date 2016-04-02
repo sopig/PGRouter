@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "JXRouter"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "页面路由."
 
   s.description  = <<-DESC
@@ -33,11 +33,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = "./*"
+  s.source_files = "Classes/*"
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "./*.h"
+  s.public_header_files = "Classes/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -76,6 +76,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "JSONKit", "~> 1.4"
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
