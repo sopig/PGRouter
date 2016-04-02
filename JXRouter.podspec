@@ -8,20 +8,20 @@
 
 Pod::Spec.new do |s|
   s.name         = "JXRouter"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "页面路由."
 
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/JXRouter"
+  s.homepage     = "https://github.com/sopig/JXRouter.git"
   s.license      = "MIT"
 
   s.author       = { "listen" => "chay0103@163.com" }
   
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "http://EXAMPLE/JXRouter.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:sopig/JXRouter.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
