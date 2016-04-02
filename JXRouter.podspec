@@ -8,10 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name         = "JXRouter"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "页面路由."
 
   s.description  = <<-DESC
+                  **Router 实践**
                    DESC
 
   s.homepage     = "https://github.com/sopig/JXRouter.git"
